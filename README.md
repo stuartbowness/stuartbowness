@@ -9,6 +9,16 @@ These repositories show a few of those decisions in code.
 
 ## Selected work
 
+### [Darkfactory](https://github.com/stuartbowness/darkfactory)
+
+Coding-agent workflows backed by a Rust process supervisor. Darkfactory connects
+planning, scoped implementation, and review while keeping process supervision
+separate from agent instructions. The dispatcher handles worker events,
+process-group timeouts, and structured results, with real subprocess tests on
+Linux and macOS. A credential-free demo exercises success, failure, and timeout.
+
+**Explore:** [Design](https://github.com/stuartbowness/darkfactory/blob/main/ARCH.md) · [Supervisor](https://github.com/stuartbowness/darkfactory/blob/main/tools/darkfactory-dispatch/src/supervisor.rs) · [Offline demo](https://github.com/stuartbowness/darkfactory/blob/main/examples/dispatch-demo.py)
+
 ### [TestKitchen](https://github.com/stuartbowness/testkitchen)
 
 A conversational-agent testing toolkit adapted from internal QA work on Toyo.
@@ -27,7 +37,7 @@ and command-boundary decisions, along with what the tests do and do not cover.
 
 **Explore:** [Design](https://github.com/stuartbowness/ironsearch/blob/main/docs/architecture.md) · [Search core](https://github.com/stuartbowness/ironsearch/blob/main/Sources/SearchCore/SearchEngine.swift) · [Tests](https://github.com/stuartbowness/ironsearch/blob/main/Tests/SearchCoreTests/SearchEngineTests.swift)
 
-Both projects are MIT licensed. They are focused examples, with setup instructions
+These projects are MIT licensed. They are focused examples, with setup instructions
 and documented limitations, rather than a complete account of my private work.
 
 [Website](https://stuartbowness.com) · [LinkedIn](https://www.linkedin.com/in/stuartbowness/)
