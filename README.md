@@ -37,6 +37,16 @@ and command-boundary decisions, along with what the tests do and do not cover.
 
 **Explore:** [Design](https://github.com/stuartbowness/ironsearch/blob/main/docs/architecture.md) · [Search core](https://github.com/stuartbowness/ironsearch/blob/main/Sources/SearchCore/SearchEngine.swift) · [Tests](https://github.com/stuartbowness/ironsearch/blob/main/Tests/SearchCoreTests/SearchEngineTests.swift)
 
+### [Iron Zapper](https://github.com/stuartbowness/ironzapper)
+
+A native macOS uninstaller built around explicit ownership evidence and recoverable
+file operations. Its Swift core distinguishes exclusive, uncertain, and shared
+data; the app revalidates selections before moving files to Trash. The source
+includes an authenticated XPC helper, filesystem fixtures, and documented limits
+on privileged cleanup, whose installed workflow still needs end-to-end verification.
+
+**Explore:** [Design](https://github.com/stuartbowness/ironzapper/blob/main/docs/architecture.md) · [Ownership policy](https://github.com/stuartbowness/ironzapper/blob/main/Sources/IronZapperCore/Scanner.swift) · [Tests](https://github.com/stuartbowness/ironzapper/tree/main/Tests/IronZapperCoreTests)
+
 These projects are MIT licensed. They are focused examples, with setup instructions
 and documented limitations, rather than a complete account of my private work.
 
